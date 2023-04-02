@@ -8,10 +8,10 @@
 		<property name="format_sql">true</property>
 		<property name="dialect">com.company.enroller.persistence.SQLiteDialect</property>
 		<property name="connection.driver_class">org.sqlite.JDBC</property>
-		<property name="connection.url">jdbc:sqlite:enroller.db</property>
+<!--		<property name="connection.url">jdbc:sqlite:enroller.db</property>-->
+		<property name="connection.url">jdbc:sqlite:/home/jarek/Studia/MWO/II_sem/Programowanie_aplikacji_webowych_2/lab1_v2/agh-mwo-enroller/enroller.db</property>
 		<property name="connection.username"></property>
 		<property name="connection.password"></property>
-	
 		<mapping class="com.company.enroller.model.Meeting"/>
 		<mapping class="com.company.enroller.model.Participant"/>
 		
